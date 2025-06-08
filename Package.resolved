@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rakeshashastri/Component2.git",
       "state" : {
-        "revision" : "1821fa7122f337bfb459d3c64d00142a6c7f2e5f",
-        "version" : "0.1.0"
+        "revision" : "a7658346c84750eea13cbb1a13bb9d18462a381e",
+        "version" : "0.1.1"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rakeshashastri/Core.git",
       "state" : {
-        "revision" : "f580dd304ceab58a90b188ebf734c1126ab95019",
-        "version" : "0.1.1"
+        "revision" : "941e4f87e70f4230f3c178735d5b2b0e7e83eaff",
+        "version" : "0.1.2"
       }
     }
   ],
