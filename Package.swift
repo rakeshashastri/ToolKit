@@ -11,11 +11,16 @@ let package = Package(
             name: "ToolKit",
             targets: ["ToolKit"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/rakeshashastri/Component1.git", from: "0.0.1"),
+        .package(url: "https://github.com/rakeshashastri/Component2.git", from: "0.0.1"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "ToolKit"),
+            name: "ToolKit",
+            dependencies: ["Component1", "Component2"]),
         .testTarget(
             name: "ToolKitTests",
             dependencies: ["ToolKit"]
