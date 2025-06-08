@@ -1,0 +1,33 @@
+{
+  "originHash" : "4d3f73b4417803c1630eb122ef3a1b0f16c2d0a0c25581c65fca67fc42cad0a9",
+  "pins" : [
+    {
+      "identity" : "component1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rakeshashastri/Component1.git",
+      "state" : {
+        "revision" : "1130a1190b8e04b5933dc5ca763ae5f16aa8b468",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "component2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rakeshashastri/Component2.git",
+      "state" : {
+        "revision" : "1821fa7122f337bfb459d3c64d00142a6c7f2e5f",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rakeshashastri/Core.git",
+      "state" : {
+        "revision" : "c07ec0530ac001adc639796dc2d38b9f5119b5a9",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
